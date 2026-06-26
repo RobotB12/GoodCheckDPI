@@ -1,4 +1,7 @@
 *
+!.github\
+!.github\**
+!.editorconfig
 !.gitattributes
 !.gitignore
 !LICENSE
