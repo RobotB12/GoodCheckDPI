@@ -1,5 +1,5 @@
 @echo off
-title Install GoodbyeDPI Service (Blacklist)
+title Install GoodbyeDPI Service
 
 :: Check for administrator privileges
 net session >nul 2>&1
@@ -15,10 +15,9 @@ if %errorlevel% NEQ 0 (
 pushd "%~dp0"
 
 :: Check system architecture
+set "arch=x86"
 if "%Processor_Architecture%" EQU "AMD64" (
     set "arch=x86_64"
-) else (
-    set "arch=x86"
 )
 
 :: Configuration Variables
