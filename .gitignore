@@ -1,11 +1,14 @@
 *
-!.github\
-!.github\**
+!.github/
+!.github/**
+!assets/
+!assets/**
 !.editorconfig
 !.gitattributes
 !.gitignore
 !LICENSE
 !README.md
+
 !goodbyedpi*/
 !goodbyedpi*/**
 !goodcheck*/
